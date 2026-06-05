@@ -181,5 +181,4 @@ pytest -v
 Distributed under the MIT License. See `LICENSE` for more information.
 
 ---
-*Created with ♥ by slading*
-# ai-repo-analyzer
+*Created with ♥ by [AI Repository Analyzer Team](https://github.com/slading/ai-repo-analyzer)*
