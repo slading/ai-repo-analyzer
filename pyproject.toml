@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "llm-orchestrator"
+version = "0.1.0"
+description = "A resilient LLM-Orchestrated Analysis Engine"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "pydantic>=2.0.0",
+    "pytest>=8.0.0",
+    "httpx>=0.23.0",
+    "tiktoken>=0.5.0",
+    "groq>=0.9.0",
+    "GitPython>=3.1.50",
+    "pygount>=3.2.0",
+    "rich>=13.7.0"
+]

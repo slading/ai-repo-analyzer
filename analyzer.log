@@ -1,0 +1,880 @@
+2026-06-05 12:42:19,971 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/uv.lock: unknown language
+2026-06-05 12:42:20,053 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:20,060 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 12:42:20,083 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:20,087 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/CHANGES.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:20,117 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_views.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,133 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_user_error_handler.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,148 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_testing.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,171 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_templating.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,200 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_subclassing.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,202 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_signals.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,213 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_session_interface.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,215 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_request.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,220 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_reqctx.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,235 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_regression.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,238 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_logging.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,244 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_json_tag.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,250 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_json.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,270 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_instance_config.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,276 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_helpers.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,297 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_converters.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,301 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_config.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,318 - pygount - WARNING - cannot read /tmp/repo_analyzer_gpu4_x_t/tests/test_cli.py using encoding cp1252: 'charmap' codec can't decode byte 0x81 in position 15642: character maps to <undefined>
+2026-06-05 12:42:20,319 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_blueprints.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,386 - pygount - WARNING - cannot read /tmp/repo_analyzer_gpu4_x_t/tests/test_basic.py using encoding cp1252: 'charmap' codec can't decode byte 0x81 in position 46163: character maps to <undefined>
+2026-06-05 12:42:20,386 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_async.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,394 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_appctx.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,410 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/conftest.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,417 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/type_check/typing_route.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,423 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/type_check/typing_error_handler.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,425 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/type_check/typing_app_decorators.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,428 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/subdomaintestmodule/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,429 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/subdomaintestmodule/static/hello.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:20,430 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/helloworld/wsgi.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,431 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/helloworld/hello.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,432 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/cliapp/multiapp.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,433 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/cliapp/message.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:20,434 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/cliapp/importerrorapp.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,435 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/cliapp/factory.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,437 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/cliapp/app.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,437 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/cliapp/__init__.py: is empty
+2026-06-05 12:42:20,438 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/cliapp/inner1/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,439 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/cliapp/inner1/inner2/flask.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,439 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/cliapp/inner1/inner2/__init__.py: is empty
+2026-06-05 12:42:20,440 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/blueprintapp/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,440 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/blueprintapp/apps/__init__.py: is empty
+2026-06-05 12:42:20,441 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/blueprintapp/apps/frontend/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,445 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html: analyze as HTML using encoding cp1252
+2026-06-05 12:42:20,447 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/blueprintapp/apps/admin/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,449 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/blueprintapp/apps/admin/templates/admin/index.html: analyze as HTML using encoding cp1252
+2026-06-05 12:42:20,450 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/blueprintapp/apps/admin/static/test.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:20,486 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/test_apps/blueprintapp/apps/admin/static/css/test.css: analyze as CSS using encoding cp1252
+2026-06-05 12:42:20,489 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/templates/template_test.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,490 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/templates/template_filter.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,491 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/templates/simple_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,493 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/templates/non_escaping_template.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:20,493 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/templates/mail.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:20,494 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/templates/escaping_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,496 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/templates/context_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,497 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/templates/_macro.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,497 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/templates/nested/nested.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:20,498 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/static/index.html: analyze as HTML using encoding cp1252
+2026-06-05 12:42:20,499 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/static/config.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:20,500 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/tests/static/config.json: analyze as JSON using encoding cp1252
+2026-06-05 12:42:20,501 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/wrappers.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,509 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/views.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,516 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/typing.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,523 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/testing.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,538 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/templating.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,553 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/signals.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,555 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/sessions.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,567 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/py.typed: is empty
+2026-06-05 12:42:20,568 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/logging.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,571 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/helpers.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,590 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/globals.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,594 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/debughelpers.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,604 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/ctx.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,621 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/config.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,634 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/cli.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,685 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/blueprints.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,691 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/app.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,743 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/__main__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,744 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,747 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/sansio/scaffold.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,772 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/sansio/blueprints.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,803 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/sansio/app.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,835 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/sansio/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 12:42:20,836 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/json/tag.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,854 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/json/provider.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,863 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/src/flask/json/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,867 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:20,869 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/README.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:20,870 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:20,871 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/tests/test_factory.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,872 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/tests/test_db.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,874 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/tests/test_blog.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,881 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/tests/test_auth.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,899 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/tests/data.sql: analyze as Transact-SQL using encoding cp1252
+2026-06-05 12:42:20,901 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/tests/conftest.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,904 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/schema.sql: analyze as Transact-SQL using encoding cp1252
+2026-06-05 12:42:20,905 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/db.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,908 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/blog.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,915 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/auth.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,921 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,924 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/templates/base.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,925 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/templates/blog/update.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,927 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/templates/blog/index.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,929 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/templates/blog/create.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,930 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/templates/auth/register.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,931 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/templates/auth/login.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,942 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/tutorial/flaskr/static/style.css: analyze as CSS+Lasso using encoding cp1252
+2026-06-05 12:42:20,945 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:20,946 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/README.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:20,948 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:20,949 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/tests/test_js_example.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,952 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/tests/conftest.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,953 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/js_example/views.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,955 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/js_example/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,956 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/js_example/templates/xhr.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,968 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/js_example/templates/jquery.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,970 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/js_example/templates/fetch.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,972 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/javascript/js_example/templates/base.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:20,974 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/celery/requirements.txt: is generated code because line 1 matches re.compile('(?i).*autogenerated', re.IGNORECASE)
+2026-06-05 12:42:20,976 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/celery/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:20,977 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/celery/make_celery.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,978 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/celery/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 12:42:20,982 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/celery/src/task_app/views.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,986 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/celery/src/task_app/tasks.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,988 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/celery/src/task_app/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:20,991 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/examples/celery/src/task_app/templates/index.html: analyze as HTML+Genshi using encoding cp1252
+2026-06-05 12:42:20,996 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/web-security.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,000 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/views.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,013 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/testing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,022 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/templating.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,028 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/signals.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,030 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/shell.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,032 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/server.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,035 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/reqcontext.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,036 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/quickstart.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,071 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/make.bat: analyze as Batchfile using encoding cp1252
+2026-06-05 12:42:21,073 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/logging.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,076 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/lifecycle.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,080 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/license.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,081 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/installation.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,083 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,086 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/gevent.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,090 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/extensions.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,091 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/extensiondev.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,099 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/errorhandling.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,113 - pygount - WARNING - cannot read /tmp/repo_analyzer_gpu4_x_t/docs/design.rst using encoding cp1252: 'charmap' codec can't decode byte 0x9d in position 6260: character maps to <undefined>
+2026-06-05 12:42:21,114 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/debugging.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,117 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/contributing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,118 - pygount - WARNING - cannot read /tmp/repo_analyzer_gpu4_x_t/docs/config.rst using encoding cp1252: 'charmap' codec can't decode byte 0x9d in position 26594: character maps to <undefined>
+2026-06-05 12:42:21,119 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/conf.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:21,124 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/cli.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,134 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/changes.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,135 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/blueprints.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,140 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/async-await.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,144 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/appcontext.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,150 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/api.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,161 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/Makefile: analyze as Makefile using encoding cp1252
+2026-06-05 12:42:21,163 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/views.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,169 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/tests.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,178 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/templates.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,182 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/static.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,185 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/next.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,186 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/layout.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,189 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/install.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,191 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,192 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/flaskr_login.png: is binary
+2026-06-05 12:42:21,192 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/flaskr_index.png: is binary
+2026-06-05 12:42:21,192 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/flaskr_edit.png: is binary
+2026-06-05 12:42:21,193 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/factory.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,197 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/deploy.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,199 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/database.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,204 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/tutorial/blog.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,210 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/wtforms.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,212 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/viewdecorators.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,215 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/urlprocessors.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,217 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/templateinheritance.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,219 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/subclassing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,220 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/streaming.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,223 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/sqlite3.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,225 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/sqlalchemy.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,228 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/singlepageapplications.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,229 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/requestchecksum.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,230 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/packages.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,233 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/mongoengine.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,234 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/methodoverrides.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,236 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/lazyloading.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,237 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/jquery.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,238 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/javascript.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,245 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,247 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/flashing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,250 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/fileuploads.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,254 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/favicon.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,255 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/deferredcallbacks.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,257 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/celery.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,265 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/caching.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,266 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/appfactories.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,268 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/patterns/appdispatch.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,275 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/waitress.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,277 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/uwsgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,281 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/proxy_fix.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,283 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/nginx.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,285 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/mod_wsgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,287 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,289 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/gunicorn.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,291 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/gevent.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,293 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/eventlet.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,294 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/asgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,296 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/deploying/apache-httpd.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:21,297 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/_static/pycharm-run-config.png: is binary
+2026-06-05 12:42:21,298 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/_static/flask-name.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 12:42:21,300 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/_static/flask-logo.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 12:42:21,301 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/_static/flask-icon.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 12:42:21,302 - pygount - INFO - /tmp/repo_analyzer_gpu4_x_t/docs/_static/debugger.png: is binary
+2026-06-05 12:42:21,302 - src.services.llm_analyzer - WARNING - GROQ_API_KEY is not set or is 'mock'. Running LLMAnalyzer in MOCK MODE.
+2026-06-05 12:42:21,423 - src.services.analysis_orchestrator - INFO - Starting orchestration job f553f102-7011-4ada-b8d8-cde68349a70f for analysis type code_quality
+2026-06-05 12:42:21,482 - src.services.analysis_orchestrator - INFO - Analysis job f553f102-7011-4ada-b8d8-cde68349a70f completed with status: success
+2026-06-05 12:42:43,431 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/uv.lock: unknown language
+2026-06-05 12:42:43,518 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:43,526 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 12:42:43,554 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:43,558 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/CHANGES.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:43,589 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_views.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,605 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_user_error_handler.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,621 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_testing.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,643 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_templating.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,673 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_subclassing.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,675 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_signals.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,687 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_session_interface.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,689 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_request.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,695 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_reqctx.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,709 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_regression.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,711 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_logging.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,718 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_json_tag.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,724 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_json.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,745 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_instance_config.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,752 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_helpers.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,774 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_converters.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,777 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_config.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,795 - pygount - WARNING - cannot read /tmp/repo_analyzer_4imdfha0/tests/test_cli.py using encoding cp1252: 'charmap' codec can't decode byte 0x81 in position 15642: character maps to <undefined>
+2026-06-05 12:42:43,796 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_blueprints.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,863 - pygount - WARNING - cannot read /tmp/repo_analyzer_4imdfha0/tests/test_basic.py using encoding cp1252: 'charmap' codec can't decode byte 0x81 in position 46163: character maps to <undefined>
+2026-06-05 12:42:43,865 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_async.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,873 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_appctx.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,888 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/conftest.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,894 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/type_check/typing_route.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,901 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/type_check/typing_error_handler.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,904 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/type_check/typing_app_decorators.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,906 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/subdomaintestmodule/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,907 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/subdomaintestmodule/static/hello.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:43,908 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/helloworld/wsgi.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,909 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/helloworld/hello.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,911 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/cliapp/multiapp.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,912 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/cliapp/message.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:43,913 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/cliapp/importerrorapp.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,914 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/cliapp/factory.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,915 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/cliapp/app.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,916 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/cliapp/__init__.py: is empty
+2026-06-05 12:42:43,917 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/cliapp/inner1/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,918 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/cliapp/inner1/inner2/flask.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,918 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/cliapp/inner1/inner2/__init__.py: is empty
+2026-06-05 12:42:43,919 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/blueprintapp/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,920 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/blueprintapp/apps/__init__.py: is empty
+2026-06-05 12:42:43,921 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/blueprintapp/apps/frontend/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,924 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html: analyze as HTML using encoding cp1252
+2026-06-05 12:42:43,925 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/blueprintapp/apps/admin/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,927 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/blueprintapp/apps/admin/templates/admin/index.html: analyze as HTML using encoding cp1252
+2026-06-05 12:42:43,928 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/blueprintapp/apps/admin/static/test.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:43,966 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/test_apps/blueprintapp/apps/admin/static/css/test.css: analyze as CSS using encoding cp1252
+2026-06-05 12:42:43,969 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/templates/template_test.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:43,970 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/templates/template_filter.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:43,971 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/templates/simple_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:43,972 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/templates/non_escaping_template.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:43,973 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/templates/mail.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:43,974 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/templates/escaping_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:43,975 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/templates/context_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:43,976 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/templates/_macro.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:43,977 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/templates/nested/nested.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:43,978 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/static/index.html: analyze as HTML using encoding cp1252
+2026-06-05 12:42:43,979 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/static/config.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:43,980 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/tests/static/config.json: analyze as JSON using encoding cp1252
+2026-06-05 12:42:43,981 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/wrappers.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,989 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/views.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:43,996 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/typing.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,003 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/testing.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,018 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/templating.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,032 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/signals.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,034 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/sessions.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,047 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/py.typed: is empty
+2026-06-05 12:42:44,048 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/logging.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,051 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/helpers.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,071 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/globals.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,076 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/debughelpers.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,086 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/ctx.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,105 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/config.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,119 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/cli.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,172 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/blueprints.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,178 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/app.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,235 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/__main__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,237 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,241 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/sansio/scaffold.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,285 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/sansio/blueprints.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,321 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/sansio/app.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,352 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/sansio/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 12:42:44,354 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/json/tag.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,370 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/json/provider.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,381 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/src/flask/json/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,386 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:44,388 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/README.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,389 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:44,391 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/tests/test_factory.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,392 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/tests/test_db.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,395 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/tests/test_blog.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,402 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/tests/test_auth.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,424 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/tests/data.sql: analyze as Transact-SQL using encoding cp1252
+2026-06-05 12:42:44,425 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/tests/conftest.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,430 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/schema.sql: analyze as Transact-SQL using encoding cp1252
+2026-06-05 12:42:44,432 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/db.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,435 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/blog.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,442 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/auth.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,449 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,452 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/templates/base.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,454 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/templates/blog/update.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,456 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/templates/blog/index.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,458 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/templates/blog/create.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,460 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/templates/auth/register.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,461 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/templates/auth/login.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,477 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/tutorial/flaskr/static/style.css: analyze as CSS+Lasso using encoding cp1252
+2026-06-05 12:42:44,484 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:44,487 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/README.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,491 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 12:42:44,493 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/tests/test_js_example.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,501 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/tests/conftest.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,504 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/js_example/views.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,509 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/js_example/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,511 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/js_example/templates/xhr.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,535 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/js_example/templates/jquery.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,539 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/js_example/templates/fetch.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,545 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/javascript/js_example/templates/base.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 12:42:44,550 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/celery/requirements.txt: is generated code because line 1 matches re.compile('(?i).*autogenerated', re.IGNORECASE)
+2026-06-05 12:42:44,552 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/celery/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 12:42:44,554 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/celery/make_celery.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,557 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/celery/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 12:42:44,564 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/celery/src/task_app/views.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,568 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/celery/src/task_app/tasks.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,570 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/celery/src/task_app/__init__.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,575 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/examples/celery/src/task_app/templates/index.html: analyze as HTML+Genshi using encoding cp1252
+2026-06-05 12:42:44,579 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/web-security.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,585 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/views.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,599 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/testing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,610 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/templating.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,615 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/signals.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,618 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/shell.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,620 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/server.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,623 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/reqcontext.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,624 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/quickstart.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,661 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/make.bat: analyze as Batchfile using encoding cp1252
+2026-06-05 12:42:44,664 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/logging.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,667 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/lifecycle.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,671 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/license.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,672 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/installation.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,675 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,678 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/gevent.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,682 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/extensions.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,684 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/extensiondev.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,691 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/errorhandling.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,707 - pygount - WARNING - cannot read /tmp/repo_analyzer_4imdfha0/docs/design.rst using encoding cp1252: 'charmap' codec can't decode byte 0x9d in position 6260: character maps to <undefined>
+2026-06-05 12:42:44,708 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/debugging.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,711 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/contributing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,711 - pygount - WARNING - cannot read /tmp/repo_analyzer_4imdfha0/docs/config.rst using encoding cp1252: 'charmap' codec can't decode byte 0x9d in position 26594: character maps to <undefined>
+2026-06-05 12:42:44,712 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/conf.py: analyze as Python using encoding cp1252
+2026-06-05 12:42:44,721 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/cli.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,731 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/changes.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,732 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/blueprints.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,738 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/async-await.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,741 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/appcontext.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,746 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/api.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,757 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/Makefile: analyze as Makefile using encoding cp1252
+2026-06-05 12:42:44,760 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/views.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,766 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/tests.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,776 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/templates.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,780 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/static.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,783 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/next.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,784 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/layout.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,787 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/install.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,789 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,790 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/flaskr_login.png: is binary
+2026-06-05 12:42:44,790 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/flaskr_index.png: is binary
+2026-06-05 12:42:44,791 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/flaskr_edit.png: is binary
+2026-06-05 12:42:44,792 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/factory.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,795 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/deploy.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,798 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/database.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,802 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/tutorial/blog.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,811 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/wtforms.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,814 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/viewdecorators.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,817 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/urlprocessors.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,819 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/templateinheritance.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,821 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/subclassing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,822 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/streaming.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,826 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/sqlite3.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,828 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/sqlalchemy.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,831 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/singlepageapplications.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,832 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/requestchecksum.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,833 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/packages.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,836 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/mongoengine.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,838 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/methodoverrides.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,839 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/lazyloading.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,841 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/jquery.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,842 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/javascript.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,851 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,852 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/flashing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,858 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/fileuploads.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,864 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/favicon.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,867 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/deferredcallbacks.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,870 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/celery.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,884 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/caching.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,885 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/appfactories.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,888 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/patterns/appdispatch.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,896 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/waitress.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,898 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/uwsgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,901 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/proxy_fix.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,903 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/nginx.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,905 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/mod_wsgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,908 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,910 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/gunicorn.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,913 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/gevent.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,915 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/eventlet.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,916 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/asgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,918 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/deploying/apache-httpd.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 12:42:44,919 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/_static/pycharm-run-config.png: is binary
+2026-06-05 12:42:44,921 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/_static/flask-name.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 12:42:44,922 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/_static/flask-logo.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 12:42:44,924 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/_static/flask-icon.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 12:42:44,924 - pygount - INFO - /tmp/repo_analyzer_4imdfha0/docs/_static/debugger.png: is binary
+2026-06-05 12:42:44,925 - src.services.llm_analyzer - WARNING - GROQ_API_KEY is not set or is 'mock'. Running LLMAnalyzer in MOCK MODE.
+2026-06-05 12:42:45,047 - src.services.analysis_orchestrator - INFO - Starting orchestration job bfa1eca0-0c45-44ff-86b3-2602e39e3587 for analysis type code_quality
+2026-06-05 12:42:45,105 - src.services.analysis_orchestrator - INFO - Analysis job bfa1eca0-0c45-44ff-86b3-2602e39e3587 completed with status: success
+2026-06-05 18:10:35,836 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/uv.lock: unknown language
+2026-06-05 18:10:35,972 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:10:35,980 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 18:10:36,008 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:10:36,012 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/CHANGES.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:36,055 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_views.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,083 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_user_error_handler.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,111 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_testing.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,150 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_templating.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,202 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_subclassing.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,205 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_signals.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,224 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_session_interface.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,228 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_request.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,236 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_reqctx.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,259 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_regression.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,263 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_logging.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,273 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_json_tag.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,283 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_json.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,318 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_instance_config.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,328 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_helpers.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,366 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_converters.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,372 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_config.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,402 - pygount - WARNING - cannot read /tmp/repo_analyzer_jj16qxyr/tests/test_cli.py using encoding cp1252: 'charmap' codec can't decode byte 0x81 in position 15642: character maps to <undefined>
+2026-06-05 18:10:36,403 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_blueprints.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,515 - pygount - WARNING - cannot read /tmp/repo_analyzer_jj16qxyr/tests/test_basic.py using encoding cp1252: 'charmap' codec can't decode byte 0x81 in position 46163: character maps to <undefined>
+2026-06-05 18:10:36,517 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_async.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,530 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_appctx.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,554 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/conftest.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,566 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/type_check/typing_route.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,577 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/type_check/typing_error_handler.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,581 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/type_check/typing_app_decorators.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,584 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/subdomaintestmodule/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,586 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/subdomaintestmodule/static/hello.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:10:36,587 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/helloworld/wsgi.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,588 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/helloworld/hello.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,590 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/cliapp/multiapp.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,591 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/cliapp/message.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:10:36,592 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/cliapp/importerrorapp.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,594 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/cliapp/factory.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,596 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/cliapp/app.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,596 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/cliapp/__init__.py: is empty
+2026-06-05 18:10:36,597 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/cliapp/inner1/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,599 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/cliapp/inner1/inner2/flask.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,600 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/cliapp/inner1/inner2/__init__.py: is empty
+2026-06-05 18:10:36,601 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/blueprintapp/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,602 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/blueprintapp/apps/__init__.py: is empty
+2026-06-05 18:10:36,603 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/blueprintapp/apps/frontend/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,607 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html: analyze as HTML using encoding cp1252
+2026-06-05 18:10:36,609 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/blueprintapp/apps/admin/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,611 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/blueprintapp/apps/admin/templates/admin/index.html: analyze as HTML using encoding cp1252
+2026-06-05 18:10:36,612 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/blueprintapp/apps/admin/static/test.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:10:36,654 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/test_apps/blueprintapp/apps/admin/static/css/test.css: analyze as CSS using encoding cp1252
+2026-06-05 18:10:36,657 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/templates/template_test.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:36,659 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/templates/template_filter.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:36,660 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/templates/simple_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:36,661 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/templates/non_escaping_template.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:10:36,662 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/templates/mail.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:10:36,663 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/templates/escaping_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:36,665 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/templates/context_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:36,666 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/templates/_macro.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:36,667 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/templates/nested/nested.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:10:36,669 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/static/index.html: analyze as HTML using encoding cp1252
+2026-06-05 18:10:36,670 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/static/config.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:10:36,671 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/tests/static/config.json: analyze as JSON using encoding cp1252
+2026-06-05 18:10:36,672 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/wrappers.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,686 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/views.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,699 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/typing.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,711 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/testing.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,736 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/templating.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,759 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/signals.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,762 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/sessions.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,785 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/py.typed: is empty
+2026-06-05 18:10:36,786 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/logging.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,791 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/helpers.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,826 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/globals.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,832 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/debughelpers.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,849 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/ctx.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,882 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/config.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,906 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/cli.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:36,997 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/blueprints.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,007 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/app.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,106 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/__main__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,108 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,113 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/sansio/scaffold.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,160 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/sansio/blueprints.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,218 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/sansio/app.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,273 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/sansio/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 18:10:37,274 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/json/tag.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,301 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/json/provider.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,316 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/src/flask/json/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,323 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:10:37,325 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/README.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,327 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:10:37,328 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/tests/test_factory.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,330 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/tests/test_db.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,333 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/tests/test_blog.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,344 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/tests/test_auth.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,370 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/tests/data.sql: analyze as Transact-SQL using encoding cp1252
+2026-06-05 18:10:37,372 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/tests/conftest.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,377 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/schema.sql: analyze as Transact-SQL using encoding cp1252
+2026-06-05 18:10:37,379 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/db.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,384 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/blog.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,394 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/auth.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,404 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,409 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/templates/base.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,412 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/templates/blog/update.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,414 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/templates/blog/index.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,416 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/templates/blog/create.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,418 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/templates/auth/register.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,420 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/templates/auth/login.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,434 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/tutorial/flaskr/static/style.css: analyze as CSS+Lasso using encoding cp1252
+2026-06-05 18:10:37,438 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:10:37,440 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/README.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,443 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:10:37,444 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/tests/test_js_example.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,449 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/tests/conftest.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,451 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/js_example/views.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,454 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/js_example/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,456 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/js_example/templates/xhr.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,469 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/js_example/templates/jquery.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,472 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/js_example/templates/fetch.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,474 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/javascript/js_example/templates/base.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:10:37,477 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/celery/requirements.txt: is generated code because line 1 matches re.compile('(?i).*autogenerated', re.IGNORECASE)
+2026-06-05 18:10:37,478 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/celery/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:10:37,480 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/celery/make_celery.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,482 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/celery/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 18:10:37,487 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/celery/src/task_app/views.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,493 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/celery/src/task_app/tasks.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,497 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/celery/src/task_app/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,503 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/examples/celery/src/task_app/templates/index.html: analyze as HTML+Genshi using encoding cp1252
+2026-06-05 18:10:37,508 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/web-security.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,514 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/views.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,529 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/testing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,541 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/templating.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,548 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/signals.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,551 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/shell.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,554 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/server.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,557 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/reqcontext.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,559 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/quickstart.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,600 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/make.bat: analyze as Batchfile using encoding cp1252
+2026-06-05 18:10:37,602 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/logging.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,606 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/lifecycle.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,611 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/license.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,612 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/installation.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,616 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,619 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/gevent.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,624 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/extensions.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,626 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/extensiondev.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,635 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/errorhandling.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,652 - pygount - WARNING - cannot read /tmp/repo_analyzer_jj16qxyr/docs/design.rst using encoding cp1252: 'charmap' codec can't decode byte 0x9d in position 6260: character maps to <undefined>
+2026-06-05 18:10:37,654 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/debugging.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,657 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/contributing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,658 - pygount - WARNING - cannot read /tmp/repo_analyzer_jj16qxyr/docs/config.rst using encoding cp1252: 'charmap' codec can't decode byte 0x9d in position 26594: character maps to <undefined>
+2026-06-05 18:10:37,660 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/conf.py: analyze as IPython using encoding cp1252
+2026-06-05 18:10:37,670 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/cli.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,682 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/changes.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,684 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/blueprints.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,690 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/async-await.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,694 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/appcontext.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,701 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/api.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,713 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/Makefile: analyze as Makefile using encoding cp1252
+2026-06-05 18:10:37,716 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/views.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,723 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/tests.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,734 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/templates.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,739 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/static.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,742 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/next.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,744 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/layout.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,747 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/install.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,750 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,751 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/flaskr_login.png: is binary
+2026-06-05 18:10:37,751 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/flaskr_index.png: is binary
+2026-06-05 18:10:37,752 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/flaskr_edit.png: is binary
+2026-06-05 18:10:37,753 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/factory.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,757 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/deploy.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,760 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/database.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,765 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/tutorial/blog.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,773 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/wtforms.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,777 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/viewdecorators.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,779 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/urlprocessors.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,782 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/templateinheritance.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,785 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/subclassing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,786 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/streaming.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,789 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/sqlite3.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,792 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/sqlalchemy.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,795 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/singlepageapplications.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,796 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/requestchecksum.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,798 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/packages.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,801 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/mongoengine.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,803 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/methodoverrides.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,804 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/lazyloading.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,806 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/jquery.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,808 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/javascript.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,816 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,818 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/flashing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,822 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/fileuploads.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,826 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/favicon.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,828 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/deferredcallbacks.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,830 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/celery.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,839 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/caching.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,841 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/appfactories.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,843 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/patterns/appdispatch.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,852 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/waitress.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,855 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/uwsgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,859 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/proxy_fix.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,861 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/nginx.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,864 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/mod_wsgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,867 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,870 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/gunicorn.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,873 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/gevent.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,875 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/eventlet.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,876 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/asgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,878 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/deploying/apache-httpd.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:10:37,880 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/_static/pycharm-run-config.png: is binary
+2026-06-05 18:10:37,881 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/_static/flask-name.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 18:10:37,883 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/_static/flask-logo.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 18:10:37,885 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/_static/flask-icon.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 18:10:37,885 - pygount - INFO - /tmp/repo_analyzer_jj16qxyr/docs/_static/debugger.png: is binary
+2026-06-05 18:10:37,889 - src.services.llm_analyzer - WARNING - GROQ_API_KEY is not set or is 'mock'. Running LLMAnalyzer in MOCK MODE.
+2026-06-05 18:10:38,780 - src.services.analysis_orchestrator - INFO - Starting orchestration job c640552a-f4ad-472f-a43f-4fad08158b63 for analysis type code_quality
+2026-06-05 18:10:38,840 - src.services.analysis_orchestrator - INFO - Analysis job c640552a-f4ad-472f-a43f-4fad08158b63 completed with status: success
+2026-06-05 18:14:41,776 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/uv.lock: unknown language
+2026-06-05 18:14:41,853 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:14:41,861 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 18:14:41,888 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:14:41,892 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/CHANGES.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:41,932 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_views.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:41,959 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_user_error_handler.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:41,986 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_testing.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,025 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_templating.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,077 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_subclassing.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,080 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_signals.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,099 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_session_interface.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,102 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_request.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,110 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_reqctx.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,134 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_regression.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,138 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_logging.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,148 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_json_tag.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,157 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_json.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,192 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_instance_config.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,203 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_helpers.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,240 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_converters.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,245 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_config.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,274 - pygount - WARNING - cannot read /tmp/repo_analyzer_wxi43fu6/tests/test_cli.py using encoding cp1252: 'charmap' codec can't decode byte 0x81 in position 15642: character maps to <undefined>
+2026-06-05 18:14:42,275 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_blueprints.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,388 - pygount - WARNING - cannot read /tmp/repo_analyzer_wxi43fu6/tests/test_basic.py using encoding cp1252: 'charmap' codec can't decode byte 0x81 in position 46163: character maps to <undefined>
+2026-06-05 18:14:42,389 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_async.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,402 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_appctx.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,426 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/conftest.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,437 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/type_check/typing_route.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,449 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/type_check/typing_error_handler.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,452 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/type_check/typing_app_decorators.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,456 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/subdomaintestmodule/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,457 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/subdomaintestmodule/static/hello.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:14:42,458 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/helloworld/wsgi.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,459 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/helloworld/hello.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,461 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/cliapp/multiapp.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,463 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/cliapp/message.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:14:42,464 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/cliapp/importerrorapp.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,466 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/cliapp/factory.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,468 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/cliapp/app.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,468 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/cliapp/__init__.py: is empty
+2026-06-05 18:14:42,469 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/cliapp/inner1/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,471 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/cliapp/inner1/inner2/flask.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,471 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/cliapp/inner1/inner2/__init__.py: is empty
+2026-06-05 18:14:42,473 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/blueprintapp/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,474 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/blueprintapp/apps/__init__.py: is empty
+2026-06-05 18:14:42,475 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/blueprintapp/apps/frontend/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,479 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/blueprintapp/apps/frontend/templates/frontend/index.html: analyze as HTML using encoding cp1252
+2026-06-05 18:14:42,480 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/blueprintapp/apps/admin/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,483 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/blueprintapp/apps/admin/templates/admin/index.html: analyze as HTML using encoding cp1252
+2026-06-05 18:14:42,484 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/blueprintapp/apps/admin/static/test.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:14:42,524 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/test_apps/blueprintapp/apps/admin/static/css/test.css: analyze as CSS using encoding cp1252
+2026-06-05 18:14:42,527 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/templates/template_test.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:42,529 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/templates/template_filter.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:42,530 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/templates/simple_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:42,532 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/templates/non_escaping_template.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:14:42,533 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/templates/mail.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:14:42,535 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/templates/escaping_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:42,536 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/templates/context_template.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:42,537 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/templates/_macro.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:42,539 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/templates/nested/nested.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:14:42,540 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/static/index.html: analyze as HTML using encoding cp1252
+2026-06-05 18:14:42,541 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/static/config.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:14:42,543 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/tests/static/config.json: analyze as JSON using encoding cp1252
+2026-06-05 18:14:42,544 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/wrappers.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,558 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/views.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,572 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/typing.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,584 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/testing.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,610 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/templating.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,635 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/signals.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,639 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/sessions.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,663 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/py.typed: is empty
+2026-06-05 18:14:42,664 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/logging.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,670 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/helpers.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,705 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/globals.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,712 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/debughelpers.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,729 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/ctx.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,762 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/config.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,789 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/cli.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,883 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/blueprints.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,893 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/app.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,997 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/__main__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:42,998 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,004 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/sansio/scaffold.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,054 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/sansio/blueprints.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,112 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/sansio/app.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,166 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/sansio/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 18:14:43,168 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/json/tag.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,195 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/json/provider.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,210 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/src/flask/json/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,218 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:14:43,220 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/README.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,222 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:14:43,223 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/tests/test_factory.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,225 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/tests/test_db.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,229 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/tests/test_blog.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,240 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/tests/test_auth.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,266 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/tests/data.sql: analyze as Transact-SQL using encoding cp1252
+2026-06-05 18:14:43,268 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/tests/conftest.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,274 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/schema.sql: analyze as Transact-SQL using encoding cp1252
+2026-06-05 18:14:43,276 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/db.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,281 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/blog.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,291 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/auth.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,302 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,306 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/templates/base.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,309 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/templates/blog/update.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,310 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/templates/blog/index.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,312 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/templates/blog/create.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,314 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/templates/auth/register.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,316 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/templates/auth/login.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,328 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/tutorial/flaskr/static/style.css: analyze as CSS+Lasso using encoding cp1252
+2026-06-05 18:14:43,332 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:14:43,334 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/README.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,336 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/LICENSE.txt: analyze as Text only using encoding cp1252
+2026-06-05 18:14:43,337 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/tests/test_js_example.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,342 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/tests/conftest.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,344 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/js_example/views.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,348 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/js_example/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,350 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/js_example/templates/xhr.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,363 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/js_example/templates/jquery.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,366 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/js_example/templates/fetch.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,368 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/javascript/js_example/templates/base.html: analyze as HTML+Django/Jinja using encoding cp1252
+2026-06-05 18:14:43,371 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/celery/requirements.txt: is generated code because line 1 matches re.compile('(?i).*autogenerated', re.IGNORECASE)
+2026-06-05 18:14:43,372 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/celery/pyproject.toml: analyze as TOML using encoding cp1252
+2026-06-05 18:14:43,374 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/celery/make_celery.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,376 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/celery/README.md: analyze as Markdown using encoding cp1252
+2026-06-05 18:14:43,380 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/celery/src/task_app/views.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,387 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/celery/src/task_app/tasks.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,390 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/celery/src/task_app/__init__.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,397 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/examples/celery/src/task_app/templates/index.html: analyze as HTML+Genshi using encoding cp1252
+2026-06-05 18:14:43,402 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/web-security.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,408 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/views.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,423 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/testing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,435 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/templating.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,441 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/signals.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,445 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/shell.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,447 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/server.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,451 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/reqcontext.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,452 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/quickstart.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,496 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/make.bat: analyze as Batchfile using encoding cp1252
+2026-06-05 18:14:43,501 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/logging.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,507 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/lifecycle.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,516 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/license.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,519 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/installation.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,525 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,530 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/gevent.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,540 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/extensions.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,543 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/extensiondev.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,560 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/errorhandling.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,591 - pygount - WARNING - cannot read /tmp/repo_analyzer_wxi43fu6/docs/design.rst using encoding cp1252: 'charmap' codec can't decode byte 0x9d in position 6260: character maps to <undefined>
+2026-06-05 18:14:43,594 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/debugging.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,600 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/contributing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,602 - pygount - WARNING - cannot read /tmp/repo_analyzer_wxi43fu6/docs/config.rst using encoding cp1252: 'charmap' codec can't decode byte 0x9d in position 26594: character maps to <undefined>
+2026-06-05 18:14:43,604 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/conf.py: analyze as IPython using encoding cp1252
+2026-06-05 18:14:43,626 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/cli.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,647 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/changes.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,650 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/blueprints.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,662 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/async-await.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,668 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/appcontext.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,674 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/api.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,691 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/Makefile: analyze as Makefile using encoding cp1252
+2026-06-05 18:14:43,695 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/views.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,702 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/tests.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,713 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/templates.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,717 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/static.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,720 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/next.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,722 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/layout.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,725 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/install.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,728 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,730 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/flaskr_login.png: is binary
+2026-06-05 18:14:43,730 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/flaskr_index.png: is binary
+2026-06-05 18:14:43,730 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/flaskr_edit.png: is binary
+2026-06-05 18:14:43,731 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/factory.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,735 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/deploy.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,739 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/database.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,743 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/tutorial/blog.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,751 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/wtforms.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,755 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/viewdecorators.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,758 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/urlprocessors.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,760 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/templateinheritance.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,763 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/subclassing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,765 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/streaming.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,769 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/sqlite3.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,772 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/sqlalchemy.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,775 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/singlepageapplications.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,777 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/requestchecksum.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,779 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/packages.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,782 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/mongoengine.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,784 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/methodoverrides.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,786 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/lazyloading.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,788 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/jquery.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,789 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/javascript.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,798 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,800 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/flashing.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,804 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/fileuploads.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,808 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/favicon.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,811 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/deferredcallbacks.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,812 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/celery.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,822 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/caching.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,823 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/appfactories.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,826 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/patterns/appdispatch.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,835 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/waitress.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,838 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/uwsgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,843 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/proxy_fix.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,845 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/nginx.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,848 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/mod_wsgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,851 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/index.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,853 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/gunicorn.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,857 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/gevent.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,859 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/eventlet.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,861 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/asgi.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,863 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/deploying/apache-httpd.rst: analyze as reStructuredText using encoding cp1252
+2026-06-05 18:14:43,865 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/_static/pycharm-run-config.png: is binary
+2026-06-05 18:14:43,866 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/_static/flask-name.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 18:14:43,868 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/_static/flask-logo.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 18:14:43,870 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/_static/flask-icon.svg: analyze as SVG XML using encoding UTF-8
+2026-06-05 18:14:43,871 - pygount - INFO - /tmp/repo_analyzer_wxi43fu6/docs/_static/debugger.png: is binary
+2026-06-05 18:14:43,875 - src.services.llm_analyzer - WARNING - GROQ_API_KEY is not set or is 'mock'. Running LLMAnalyzer in MOCK MODE.
+2026-06-05 18:14:44,006 - src.services.analysis_orchestrator - INFO - Starting orchestration job 2ee8747d-8b4a-4383-acf8-3bd8bec920d6 for analysis type code_quality
+2026-06-05 18:14:44,065 - src.services.analysis_orchestrator - INFO - Analysis job 2ee8747d-8b4a-4383-acf8-3bd8bec920d6 completed with status: success

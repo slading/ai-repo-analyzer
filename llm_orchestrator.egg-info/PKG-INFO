@@ -1,0 +1,135 @@
+Metadata-Version: 2.4
+Name: llm-orchestrator
+Version: 0.1.0
+Summary: A resilient LLM-Orchestrated Analysis Engine
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic>=2.0.0
+Requires-Dist: pytest>=8.0.0
+Requires-Dist: httpx>=0.23.0
+Requires-Dist: tiktoken>=0.5.0
+Requires-Dist: groq>=0.9.0
+Requires-Dist: GitPython>=3.1.50
+Requires-Dist: pygount>=3.2.0
+Requires-Dist: rich>=13.7.0
+
+# LLM-Orchestrated Analysis & Security Engine
+
+A production-ready, clean-architecture framework for executing deep static, security, performance, and sentiment analysis on text/code utilizing the high-speed **Groq Cloud API**.
+
+This project provides bulletproof resilience and complete security requirements, including **Circuit Breaker state machines, sliding window rate limiters (RPM and TPM tracking), automated retry-on-transient-error logic with exponential backoff, and robust Pydantic input validation**.
+
+---
+
+## Architecture Overview
+
+Adhering to the principles of **Clean Architecture**, the codebase is strictly separated into independent layers:
+
+```
+src/
+├── domain/
+│   └── models.py            # Pydantic schemas, value validation, state configurations
+├── services/
+│   ├── llm_analyzer.py      # Resilient Groq client, circuit breaker, retry handler
+│   └── analysis_orchestrator.py # Multi-stage/parallel job orchestrator, results aggregator
+└── utils/
+    ├── rate_limiter.py      # Thread-safe sliding window RPM & TPM rate limiter
+    └── token_counter.py     # Token estimation and cost-calculation engine
+```
+
+1. **Domain Layer (`src/domain/models.py`)**: Defines domain entities (`Finding`, `AnalysisResult`, `AnalysisSummary`, `TokenUsage`) and validation constraints. Completely framework-agnostic.
+2. **Services Layer**:
+   - **`LLMAnalyzer`**: Wraps the Groq API. Coordinates the rate limiter and circuit breaker before dispatching LLM calls. Includes a fallback Mock Mode if no API key is specified.
+   - **`AnalysisOrchestrator`**: The brain of the analysis process. Coordinates multiple sub-stages (e.g. running Quality, Security, and Performance sequentially on the same input content) and aggregates scores, findings, and token usage into a unified response schema.
+3. **Utilities Layer**:
+   - **`LLMRateLimiter`**: A sliding window token bucket rate limiter tracking requests per minute (RPM) and tokens per minute (TPM). Thread-safe with a blocking lock.
+   - **`TokenCounter`**: Encapsulates token counting and pre-flight estimation. Uses `tiktoken` as a proxy for the LLM tokenizers to maintain accurate budget counts.
+
+---
+
+## Key Features & Security Patterns
+
+### 1. Sliding Window Rate Limiter (RPM & TPM)
+Tracks both number of requests and cumulative token volume within a rolling 60-second window. It supports blocking wait times or immediate non-blocking rate exceptions.
+
+### 2. Circuit Breaker State Machine
+Prevents overloading downstream Groq service in the event of persistent network or platform issues. 
+- Transitions from `CLOSED` to `OPEN` on reaching consecutive failures.
+- Automatically transitions to `HALF_OPEN` after a cooling window (`recovery_timeout_seconds`) to run test requests.
+- Returns to `CLOSED` upon successful recovery, or goes back to `OPEN` if the issue persists.
+
+### 3. Smart Retries with Exponential Backoff
+Catches temporary network glitches, rate limiting errors (HTTP 429), or server-side issues (HTTP 5xx), and automatically retries with jitter and exponential backoff to maximize request success rate.
+
+---
+
+## Groq Integration
+
+The platform connects to Groq using the official `groq` Python SDK. It instructs models (e.g. `llama-3.3-70b-versatile`) to output in **JSON Mode** to ensure structured and schema-compliant parsing.
+
+### How to Configure Groq Integration
+
+Set the `GROQ_API_KEY` environment variable with your valid Groq API key:
+
+```bash
+export GROQ_API_KEY="gsk_YourActualGroqApiKeyHere..."
+```
+
+If `GROQ_API_KEY` is not set or equals `"mock"`, the engine falls back to a realistic **Mock Mode** for developer environments and unit testing, simulating exact response structures and token usage with no network overhead.
+
+### Model Support & Pricing
+
+The token cost calculations are updated with Groq pricing (per 1,000,000 tokens):
+* **`llama-3.3-70b-versatile`**: Input: $0.59 | Output: $0.79
+* **`llama-3.1-8b-instant`**: Input: $0.05 | Output: $0.08
+* **`mixtral-8x7b-32768`**: Input: $0.24 | Output: $0.24
+* **`gemma2-9b-it`**: Input: $0.20 | Output: $0.20
+
+---
+
+## Getting Started
+
+### Installation
+
+Ensure you have Python 3.9+ and install dependencies:
+
+```bash
+pip install pydantic pytest httpx tiktoken groq
+```
+
+### Running Tests
+
+Execute the comprehensive unit and integration test suite to verify code health, circuit breakers, rate limits, and orchestrator aggregation:
+
+```bash
+PYTHONPATH=. pytest -v
+```
+
+### Sample Usage
+
+```python
+from src.domain.models import AnalysisRequest, AnalysisType
+from src.services.llm_analyzer import LLMAnalyzer
+from src.services.analysis_orchestrator import AnalysisOrchestrator
+
+# Initialize services
+analyzer = LLMAnalyzer() # Picks up GROQ_API_KEY from environment
+orchestrator = AnalysisOrchestrator(analyzer)
+
+# Prepare a request with multiple analysis dimensions
+request = AnalysisRequest(
+    text="query = 'SELECT * FROM users WHERE id = ' + user_id",
+    analysis_type=AnalysisType.SECURITY,
+    parameters={"extra_types": ["code_quality", "performance"]}
+)
+
+# Run resiliently
+result = orchestrator.execute_analysis(request)
+
+if result.status == "success":
+    print(f"Analysis Complete! Combined Score: {result.summary.score}/100")
+    print(f"Total Findings Found: {len(result.findings)}")
+    print(f"Token Budget Used: {result.token_usage.total_tokens} (${result.token_usage.estimated_cost_usd:.6f})")
+else:
+    print(f"Analysis Failed: {result.error}")
+```

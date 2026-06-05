@@ -1,0 +1,49 @@
+{
+  "request_id": "c9e2b102-18ad-4c12-9854-47fca068f001",
+  "status": "success",
+  "summary": {
+    "score": 76.67,
+    "findings_count": {
+      "LOW": 1,
+      "MEDIUM": 1,
+      "HIGH": 1,
+      "CRITICAL": 0
+    },
+    "duration_ms": 154.28
+  },
+  "findings": [
+    {
+      "id": "QUAL-101",
+      "category": "Code Quality",
+      "severity": "LOW",
+      "line_number": 5,
+      "description": "Variable name 'x' is too short and non-descriptive.",
+      "suggestion": "Rename 'x' to something that describes its semantic purpose."
+    },
+    {
+      "id": "SEC-201",
+      "category": "Security",
+      "severity": "HIGH",
+      "line_number": 22,
+      "description": "Potential SQL injection vulnerability. Inputs should not be concatenated directly into queries.",
+      "suggestion": "Use parameterized queries or prepared statements instead of string concatenation."
+    },
+    {
+      "id": "PERF-401",
+      "category": "Performance",
+      "severity": "MEDIUM",
+      "line_number": 45,
+      "description": "O(N^2) quadratic nested loop detected over high volume collections.",
+      "suggestion": "Optimize the query or use a hash map lookup to reduce complexity to O(N)."
+    }
+  ],
+  "raw_output": "Aggregated output of 3 stages.",
+  "token_usage": {
+    "prompt_tokens": 1450,
+    "completion_tokens": 680,
+    "total_tokens": 2130,
+    "estimated_cost_usd": 0.0013927
+  },
+  "model_used": "llama-3.3-70b-versatile",
+  "error": null
+}
